@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@mysten/bcs": "^1.9.2",
+    "@mysten/sui": "^1.45.2",
+    "dotenv": "^17.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.9"
+  }
+}
