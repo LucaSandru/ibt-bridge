@@ -36,3 +36,41 @@ A cross-chain token bridge that allows transferring **IBT Token** between **Ethe
    npm install
    npm run dev
    ```
+
+3. Run the backend (If applicable)
+good because backend/ has Node.js scripts or an API:
+
+```bash
+cd ../backend
+npm install
+# then either:
+node index.js
+npm star
+```
+
+4. Ethereum Smart Contract
+
+a) Install dependencies (Hardhat or Truffle):
+```bash
+cd ../ethereum
+npm install
+```
+b) Compile the contracts:
+```hash
+npx hardhat compile
+```
+c) Optional, you can deploy to a local or test network:
+```bash
+npx hardhat run scripts/deploy.js --network localhost
+```
+Here, make sure you're running Hardhat local node, or connected to testnet via `.env.`
+
+5. Sui Smart Contract
+
+a) Make sure to be installed by the Sui CLI: [https://docs.sui.io/sui-cli]
+b) Run tests or publish packages with:
+```bash
+sui move build
+sui move test
+sui client publish --gas-budget 100000000
+```
