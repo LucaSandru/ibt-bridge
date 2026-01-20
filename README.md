@@ -2,7 +2,7 @@
 
 A cross-chain token bridge that allows transferring **IBT Token** between **Ethereum** and **Sui** blockchains.
 
-## 🚀 Features
+## Features
 
 - Bridge IBT tokens between Ethereum and Sui
 -  UI built with React, TypeScript, TailwindCSS, and Vite
